@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projet Malware 💻 — ISET Kebili</title>
+<link rel="stylesheet" href="/css/style.css">
+<script src="/js/conslo.js">
+</script>
+</head>
+<body>
+<input type="checkbox" id="mode" hidden>
+
+<div class="page">
+
+<nav>
+  <div class="logo"><img src="/img/logo.png" alt="Logo ISET Kebili"></div>
+  <div class="nav-links">
+    <a href="#definition">Définition </a>
+    <a href="#virus">Virus </a>
+    <a href="#trojan">Trojan </a>
+    <a href="#ransomware">Ransomware </a>
+    <a href="#spyware">Spyware </a>
+    <a href="#worm">Worm </a>
+    <a href="#conclusion">Conclusion </a>
+  </div>
+  <div class="mode-switch">
+    <label for="mode">☀️ / 🌙</label>
+  </div>
+</nav>
+
+<main>
+
+  <section id="definition">
+    <h2>Définition du Malware 🦠</h2>
+    <p>Le terme <strong> malware</strong>  vient de <strong>malicious software</strong>  , ce qui signifie logiciel malveillant.
+Il s’agit de tout programme ou code conçu pour nuire à un système informatique, voler des données, espionner l’utilisateur ou perturber le fonctionnement normal d’un appareil sans le consentement de la victime.
+
+Les malwares représentent aujourd’hui une grande menace pour la sécurité informatique, aussi bien pour les particuliers que pour les entreprises et les gouvernements.</p>
+  </section>
+
+  <section id="virus">
+    <h2>Virus ☣️</h2>
+    <p>  <strong >Virus</strong> est un programme capable de se copier et de se propager d’un fichier à un autre, souvent à l’insu de l’utilisateur. Il s’attache à des programmes ou des documents exécutables et s’active lorsqu’ils sont ouverts. Une fois lancé, il peut altérer les données, ralentir le système, consommer les ressources de l’ordinateur, voire rendre le système complètement inutilisable. Certains virus sont créés pour le simple plaisir de nuire, tandis que d’autres ont des objectifs précis comme le vol d’informations ou la destruction de fichiers critique.</p>
+    
+    <img alt="[ Emplacement pour image Virus ]" class="malware-image" src="/img/verus.png">
+    
+    <p class="center-link"><a href="https://fr.wikipedia.org/wiki/CIH_(virus_informatique)" class="c1"><strong>CIH</strong></a></p>
+    </section>
+
+  <section id="trojan">
+    <h2>Trojan — Cheval de Troie 🐴</h2>
+    <p>C’est un programme qui semble légitime (par exemple un jeu, un outil ou un fichier PDF) mais qui cache un code malveillant. Lorsqu’un utilisateur l’installe, le cheval de Troie peut créer une porte dérobée (backdoor) qui permet au pirate d’accéder à distance à l’ordinateur. Il peut ainsi voler des données personnelles, installer d’autres logiciels malveillants, ou prendre le contrôle complet du système sans que l’utilisateur s’en aperçoive. Contrairement aux virus, le cheval de Troie ne se propage pas seul, il nécessite que l’utilisateur exécute le programme piégé.</p>
+    
+    <img alt="[ Emplacement pour image Trojan ]" class="malware-image" src="/img/trjen.jpg">
+    
+    <p class="center-link">
+     <a href="https://en.wikipedia.org/wiki/Zeus_%28malware%29?utm_source=chatgpt.com" class="c1"><strong>Zeus (malware)</strong></a>
+    </p>
+  </section>
+
+  <section id="ransomware">
+    <h2>Ransomware — Rançongiciel 💰</h2>
+    <p> Ce type de malware bloque l’accès aux fichiers ou au système et demande une rançon, souvent en cryptomonnaie, pour les débloquer. Les rançongiciels utilisent généralement des techniques de chiffrement puissant pour rendre les données inaccessibles. Une fois infecté, l’utilisateur voit apparaître un message exigeant un paiement pour récupérer ses fichiers. Les organisations et les particuliers doivent impérativement disposer de sauvegardes régulières pour limiter les dégâts.</p>
+    
+    <img alt="[ Emplacement pour image Ransomware ]" class="malware-image" src="/img/ranswer.jpg">
+    
+    <p class="center-link"> <strong> <a href="https://en.wikipedia.org/wiki/LockBit" class="c1">LockBit</a> </strong></p>
+
+  </section>
+
+  <section id="spyware">
+    <h2>Spyware — Logiciel espion 🕵️</h2>
+    <p>Un <strong>spyware</strong> est conçu pour observer et collecter des informations sur l’utilisateur sans son consentement. Il peut enregistrer les frappes clavier (keylogging), surveiller la navigation web, ou récupérer des informations personnelles comme des mots de passe et des coordonnées bancaires. Ces données peuvent ensuite être revendues ou utilisées pour des attaques ciblées. Les spywares sont souvent intégrés à des applications gratuites ou téléchargés accidentellement.</p>
+    
+    <img alt="[ Emplacement pour image Spyware ]" class="malware-image" src="/img/spynware.jpg">
+    
+     <p class="center-link"> <a href="https://fr.wikipedia.org/wiki/Pegasus_(logiciel_espion)" class="c1"><strong>Pegasus</strong></a> </p>
+  
+  </section>
+
+  <section id="worm">
+    <h2>Worm — Ver Informatique 🐛</h2>
+    <p>Un <strong>ver</strong> est un programme autonome capable de se répliquer et de se propager sur un réseau sans intervention humaine. Il exploite souvent des failles de sécurité dans les systèmes d’exploitation ou les logiciels pour infecter d’autres machines. Les vers peuvent saturer le réseau, ralentir les serveurs et propager d’autres malwares. Par exemple, le ver WannaCry (2017) a exploité une vulnérabilité de Windows pour chiffrer des fichiers et exiger une rançon sur des centaines de milliers d’ordinateurs.</p>
+    
+    <img alt="[ Emplacement pour image Worm ]" class="malware-image" src="/img/worm.jpeg">
+    
+     <p class="center-link"><strong> <a href="https://en.wikipedia.org/wiki/WannaCry" class="c1">WannaCry</a> </strong></p>
+  </section>
+
+  <section class="conclusion" id="conclusion">
+    <h2>🔒 Conclusion</h2>
+    <p>Pour se protéger efficacement contre les malwares, il est crucial d'adopter les bonnes pratiques suivantes :</p>
+    <ul>
+      <li>Installer un antivirus fiable et le mettre à jour régulièrement.</li>
+      <li>Utiliser des solutions reconnues qui détectent et suppriment les malwares en temps réel.</li>
+      <li>Garder son système d’exploitation et tous les logiciels à jour pour corriger les failles de sécurité.</li>
+      <li>Ne pas télécharger de programmes ou de fichiers depuis des sources non sécurisées ou suspectes.</li>
+      <li>Se méfier des emails de phishing et ne pas cliquer sur des liens ou pièces jointes inattendus.</li>
+    </ul>
+
+  </section>
+
+</main>
+
+
+<footer>
+  © 2025 — Réalisé par <strong>Mohamed Rayen Gmiha</strong>, <strong>Anas Boughanmi</strong> 👨‍💻 — ISET Kebili.
+</footer>
+
+
+<button id="top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'});"> Haut ⬆️</button>
+
+</div>
+</body>
+</html>
